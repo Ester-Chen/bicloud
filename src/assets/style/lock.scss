@@ -1,0 +1,102 @@
+.first {
+  margin-bottom: 6rem;
+  width: 46.88rem;
+  z-index: 1;
+  
+  img {
+    width: 46.88rem;
+  }
+  
+  .imgs {
+    position: absolute;
+    top: 0;
+    height: 24rem;
+    
+    .first1 {
+      width: 4rem;
+      height: 4rem;
+      margin-top: 1.75rem;
+      margin-left: 5.06rem;
+    }
+    
+    .first2 {
+      width: 9.28rem;
+      height: 9.28rem;
+      margin-top: 7.4rem;
+      margin-left: 5.6rem;
+    }
+    
+    .first3 {
+      width: 8.25rem;
+      height: 8.25rem;
+      margin-top: 1.38rem;
+      margin-left: 4.375rem;
+    }
+  }
+}
+.second {
+  position: absolute;
+  top: 1rem;
+  padding-bottom: 6.25rem;
+  
+  .card {
+    width: 40rem;
+    margin-top: 4rem;
+    background: #FFFFFF;
+    padding: 6rem 3rem 4rem;
+    position: relative;
+    
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: #dfdfdf;
+      margin: 1.875rem 0 2.5rem 0;
+      width: 100%;
+    }
+    
+    .title {
+      font-size: 2.13rem !important;
+      font-weight: 400;
+      color: #000000;
+      text-align: center;
+      z-index: 9;
+    }
+    
+    .cont1 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #3A2F45;
+      padding: 2rem 0;
+      margin-top: 2rem;
+      z-index: 9;
+    }
+    
+    .cont2 {
+      font-size: 2.88rem;
+      font-weight: bold;
+      color: #007AFF;
+      padding: 2rem 0;
+      margin-top: 2rem;
+      z-index: 9;
+    }
+    
+    .btn {
+      width: 28.75rem;
+      height: 6rem;
+      background: #007AFF;
+      border-radius: 1rem;
+      margin-top: 2.5rem;
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: #FFFFFF;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      z-index: 9;
+    }
+  }
+}
+
+

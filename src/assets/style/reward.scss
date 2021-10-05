@@ -1,0 +1,108 @@
+.first {
+  position: relative;
+  width: 40.88rem;
+  height: 18.75rem;
+  background: #FF714F;
+  border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+  opacity: 1;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  
+  .bg {
+    width: 40.88rem;
+    height: 18.75rem;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  
+  .icon {
+    width: 7.5rem;
+    height: 7.5rem;
+    z-index: 1;
+  }
+  
+  div {
+    height: 6rem;
+    font-size: 4rem;
+    font-family: Montserrat-Bold, Montserrat;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 6rem;
+  }
+}
+.second {
+  width: 40.88rem;
+  background: #FFFFFF;
+  border-radius: 1.25rem 1.25rem 1.25rem 1.25rem;
+  margin-bottom: 3rem;
+  padding: 4.38rem 2rem 3.88rem;
+  
+  .bg {
+    width: 40.88rem;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+  }
+  
+  .btn {
+    width: 14rem;
+    height: 4rem;
+    background: #FF714F;
+    border-radius: 1rem 1rem 1rem 1rem;
+    text-align: center;
+    font-size: 1.75rem;
+    font-family: Source Han Sans SC-Regular, Source Han Sans SC;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 4.2rem;
+    margin-bottom: 1.88rem;
+  }
+  
+  .cont1 {
+    height: 4rem;
+    font-size: 3rem;
+    font-family: Montserrat-Bold, Montserrat;
+    font-weight: bold;
+    color: #2E2E2E;
+    line-height: 3.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cont2 {
+    height: 2.5rem;
+    font-size: 1.75rem;
+    font-family: Source Han Sans SC-Regular, Source Han Sans SC;
+    font-weight: 400;
+    color: #2E2E2E;
+    line-height: 2.5rem;
+    margin-bottom: 2.63rem;
+  }
+  
+  .hr {
+    height: 1px;
+    border-bottom: 1px dashed #E5E5E5;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  
+  .cont3 {
+    width: 100%;
+    height: 2.75rem;
+    font-size: 2rem;
+    font-family: Source Han Sans SC-Bold, Source Han Sans SC;
+    font-weight: bold;
+    color: #1F41C2;
+    line-height: 2.75rem;
+    margin-bottom: 1.63rem;
+  }
+  
+  .cont4 {
+    font-size: 1.5rem;
+    font-family: Source Han Sans SC-Regular, Source Han Sans SC;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6000000238418579);
+    line-height: 3rem;
+    min-height: 28.81rem;
+  }
+}

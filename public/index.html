@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="http:////at.alicdn.com/t/font_2722821_7run06f27ik.css">
+
+    <style>
+      html {tab-size: 0 !important; font-size: 10px;}
+      body {
+        -webkit-text-size-adjust: 100% !important;
+        background-color: #F4F4F4;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      (function() {
+        if (typeof WeixinJSBridge == 'object' && typeof WeixinJSBridge.invoke == 'function') {
+          handleFontSize();
+        } else {
+          if (document.addEventListener) {
+            document.addEventListener('WeixinJSBridgeReady', handleFontSize, false);
+          } else if (document.attachEvent) {
+            document.attachEvent('WeixinJSBridgeReady', handleFontSize);
+            document.attachEvent('onWeixinJSBridgeReady', handleFontSize);
+          }
+        }
+
+        function handleFontSize() {
+          WeixinJSBridge.invoke('setFontSizeCallback', {fontSize: 0});
+          WeixinJSBridge.on('menu:setfont', function() {
+            WeixinJSBridge.invoke('setFontSizeCallback', {fontSize: 0});
+          });
+        }
+      })();
+      (function(doc, win) {
+        var docEl = win.document.documentElement;
+        var resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+        var refreshRem = function() {
+          var clientWidth = win.innerWidth || doc.documentElement.clientWidth || doc.body.clientWidth;
+          if (!clientWidth) return;
+          if (clientWidth >= 960) clientWidth = 375;
+          var oldSize = 16 * (clientWidth / 750) + 'px';
+          docEl.style.fontSize = oldSize;
+        };
+        docEl.setAttribute('data-dpr', window.navigator.appVersion.match(/iphone/gi) ? window.devicePixelRatio : 1);
+        if (/iP(hone|od|ad)/.test(window.navigator.userAgent)) {
+          doc.documentElement.classList.add('ios');
+          if (parseInt(window.navigator.appVersion.match(/OS (\d+)_(\d+)_?(\d+)?/)[1], 10) >= 8)
+            doc.documentElement.classList.add('hairline');
+        }
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, refreshRem, false);
+        doc.addEventListener('DOMContentLoaded', refreshRem, false);
+        refreshRem();
+      })(document, window);
+
+    </script>
+  </body>
+</html>

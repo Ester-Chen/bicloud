@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "BI CLOUD",
+    "success": "操作成功",
+    "error": "操作失败",
+    "confirm": "确认",
+    "cancel": "取消",
+    "balanceInsuffi": "余额不足",
+    "amountGreaterZero": "数量必须大于0",
+    "awaiting": "等待中"
+  },
+  "menu": {
+    "home": "主页",
+    "pledge": "STAKING",
+    "my": "我的",
+    "zhanshi":"BCG&BYB",
+    "nft": "我的钱包",
+    "reward": "奖励",
+    "lockWarehouse": "锁仓",
+    "whitePaper": "收益",
+    "contract": "NFT"
+  },
+  "home": {
+    "art1":"币云生态网",
+    "art2":"正式启动!",
+    "art3":"币云生态五大板块",
+    "art4":"BCG游戏TOKEN",
+    "art5":"BCGTOKEN由一款基于区块链网络编写的区块链游戏产出，产出依托于智能合约，公平公正透明，全名皆可参与",
+    "art6":"DIFI板块DMC",
+    "art7":"DMC作为BICLOUD生态种DIFI板块的主打通证上线，其获得方式是由运行在BinanceSmartChain的智能合约产出，需要采用BCG和BYB共同质押的形式产出，具有很大的升值间，将作为BICLOUD在DIFI生态板块的主打TOKEN打造，随后将跨链接入BICLOUDSmatChain作为智能链的系统通证运行，作为币云链智能合约上链和转账的基础GAS费用。也将作为SWAP板块的基础兑换通证。",
+    "art8":"BYB平台TOKEN",
+    "art9":"BYBTOKEN也是由BCG依托的区块链游戏产出，产出依托于智能合约，公平公正透明，相比于BCG，BYB更具有稀有性，所以在初期，BICLOUD也将BYB作为平台通证流通",
+    "art10":"BYB BCLOUD SWAP是基于BINANCE SMARTCHAIN推出的去中心化交易系统，增加了去中心化合约的亮点机制，正在开发中...",
+    "art11":"BYBTOKEN也是由BCG依托的区块链游戏产出，产出依托于智能合约，公平公正透明，相比于BCG，BYB更具有稀有性，所以在初期，BICLOUD也将BYB作为平台通证流通",
+    "art12":"质押"
+    
+  },
+  "extract": {
+    "art1": "提取",
+    "dividend": "我的GOOD收益",
+    "pledgeRecord": "GOOD 质押记录",
+    "pledging": "质押中",
+    "income1": "上次提取",
+    "income2": "累计提取",
+    "canclePledge": "取消质押",
+    "confirmTitle": "确认提示：",
+    "confirmContent": "确定取消质押？<br/>取消后LP将返回钱包"
+  },
+  "pledge": {
+    "art1":"取消质押",
+    "art2":"请输入质押数量",
+    "art3":"请输入质押的BYB数量",
+    "art4":"BYB余额:",
+    "art5":"确认"
+    
+    
+  },
+  "lock": {
+    "contractAddress": "合约地址",
+    "totalLock": "锁仓总量",
+    "released": "已释放"
+  },
+  
+  "wallet":{
+    "art1":"我的钱包",
+    "art2":"请连接MetaMask"
+  },
+  "bcg":{
+    "art1":"BCG是币云交易所旗下专为网络游戏打造的一款“游戏币”。该游戏币可实现游戏从多链向交易所的提币行为，可实现多游戏互冲，互提的一个代币。",
+    "art2":"BCGTOKEN由基于区块链网络编写的区块链游戏产出，产出依托于智能合约，公平公正透明，全名皆可参与。",
+    "art3":"BYB是由币云发行的代币，是基于波场Trx链上的去中心化区块链数字资产。发型总量恒定为125万枚。BYB作为币云生态系统和去中心化NFT生态所需燃料，已经应用到多个场景。",
+    "art4":"BYB TOKEN也是由BCG依托的区块链游戏产出，产出依托于智能合约，公平公正透明，相比于BCG，BYB更具有稀有性，所以在初期，BICLOUD也将BYB作为平台通证流通",
+    "art5":"BCGTOKEN is produced by a blockchain game written based on the blockchain network. The output is based on smart contracts, which is fair, just and transparent, and can participate in the full name.",
+    "art6":"DIFI Plate DMC",
+    "art7":"DMC, as the main token of the DIFI sector of the BICLOUD ecosystem, is online. Its acquisition method is produced by the smart contract running on BinanceSmartChain. It needs to be produced in the form of joint pledge of BCG and BYB. It has a great appreciation room and will be used as BICLOUD in The main token of the DIFI ecological sector will be built, and then BICLOUDSmatChain will be cross-linked into BICLOUDSmatChain as the system token of the smart chain, and it will be used as the basic GAS fee for the chain and transfer of the smart contract of the coin cloud chain. It will also be used as the basis of the SWAP sector to exchange tokens.",
+    "art8":"BYB Platform TOKEN",
+    "art9":"BYBTOKEN is also produced by the blockchain game supported by BCG. The output is based on smart contracts, fair and transparent. Compared with BCG, BYB is more rare. Therefore, in the initial stage, BICLOUD will also use BYB as a platform token for circulation.",
+    "art10":"BYB BCLOUD SWAP is a decentralized trading system based on BINANCE SMARTCHAIN. It adds the highlight mechanism of decentralized contracts and is under development...",
+    "art11":"BYBTOKEN is also produced by the blockchain game supported by BCG. The output is based on smart contracts, fair and transparent. Compared with BCG, BYB is more rare. Therefore, in the initial stage, BICLOUD will also use BYB as a platform token for circulation."
+  }
+}

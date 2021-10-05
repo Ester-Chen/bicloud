@@ -1,0 +1,87 @@
+{
+  "app": {
+    "title": "BI CLOUD",
+    "success": "Success",
+    "error": "Error",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "balanceInsuffi": "Insufficient Balance",
+    "amountGreaterZero": "Quantity Must Be Greater Than 0",
+    "awaiting": "AWAITING"
+  },
+  "menu": {
+    "home": "Home",
+    "pledge": "STAKING",
+    "zhanshi":"BCG&BYB",
+    "my": "My",
+    "nft": "Mine Wallet",
+    "reward": "Reward",
+    "lockWarehouse": "Lock Up",
+    "whitePaper": "收益",
+    "contract": "NFT"
+  },
+  "home": {
+    "art1":"BI Cloud Ecological",
+    "art2":"Officially launched!",
+    "art3":"BI CLOUD SECTORS",
+    "art4":"BCG  TOKEN",
+    "art5":"BCGTOKEN is produced by a blockchain game written based on the blockchain network. The output is based on smart contracts, which is fair, just and transparent, and can participate in the full name.",
+    "art6":"DIFI Plate DMC",
+    "art7":"DMC, as the main token of the DIFI sector of the BICLOUD ecosystem, is online. Its acquisition method is produced by the smart contract running on BinanceSmartChain. It needs to be produced in the form of joint pledge of BCG and BYB. It has a great appreciation room and will be used as BICLOUD in The main token of the DIFI ecological sector will be built, and then BICLOUDSmatChain will be cross-linked into BICLOUDSmatChain as the system token of the smart chain, and it will be used as the basic GAS fee for the chain and transfer of the smart contract of the coin cloud chain. It will also be used as the basis of the SWAP sector to exchange tokens.",
+    "art8":"BYB  TOKEN",
+    "art9":"BYBTOKEN is also produced by the blockchain game supported by BCG. The output is based on smart contracts, fair and transparent. Compared with BCG, BYB is more rare. Therefore, in the initial stage, BICLOUD will also use BYB as a platform token for circulation.",
+    "art10":"BYB BCLOUD SWAP is a decentralized trading system based on BINANCE SMARTCHAIN. It adds the highlight mechanism of decentralized contracts and is under development...",
+    "art11":"BYBTOKEN is also produced by the blockchain game supported by BCG. The output is based on smart contracts, fair and transparent. Compared with BCG, BYB is more rare. Therefore, in the initial stage, BICLOUD will also use BYB as a platform token for circulation.",
+    "art12":"STAKEING"
+  },
+  "extract": {
+    "art1": "Gain",
+    "dividend": "My GOOD Earnings",
+    "pledgeRecord": "GOOD Pledge",
+    "pledging": "Pledge",
+    "income1": "Last Extract",
+    "income2": "Total Extract",
+    "canclePledge": "Cancel Pledge",
+    "confirmTitle": "Confirm prompt:",
+    "confirmContent": "Cancel pledge? <br/>LP will return to the wallet after cancellation"
+  },
+  "pledge": {
+    "art1":"Cancel Pledge",
+    "art2":"Please Staking",
+    "art3":"Please enter the amount of BYB pledged",
+    "art4":"BYB Balance:",
+    "art5":"Confirm"
+    
+
+
+    
+  },
+  
+  "reward":{
+    "jiangch":"Prize pool",
+    "jin":"Prize pool amount",
+    "display":"This round of winning address display",
+    "diyilun":"First Round",
+    "dierlun":"Second round",
+    "disanlun":"Third round",
+    "disilun":"Fourth round"
+    
+    
+  },
+  "wallet":{
+    "art1":"My Purse"
+  },
+  "bcg":{
+    "art1":"BCG is a 'game currency' specially created for online games under the Coin Cloud Exchange. The game currency can realize the withdrawal behavior of the game from multiple chains to the exchange, and can realize the mutual exchange of multiple games and a token with mutual withdrawal.",
+    "art2":"BCGTOKEN is produced by a blockchain game written based on the blockchain network. The output relies on smart contracts, which is fair, just and transparent, and all names can participate.",
+    "art3":"BYB is a token issued by Coin Cloud, which is based on a decentralized blockchain digital asset on the Tron Trx chain. The total number of hairstyles remained constant at 1.25 million. BYB, as the fuel required by the currency cloud ecosystem and the decentralized NFT ecosystem, has been applied to multiple scenarios.",
+    "art4":"BYB TOKEN is also a blockchain game output supported by BCG, which relies on smart contracts. The output is fair, fair and transparent. Compared with BCG, BYB is more rare",
+    "art5":"BCGTOKEN is produced by a blockchain game written based on the blockchain network. The output is based on smart contracts, which is fair, just and transparent, and can participate in the full name.",
+    "art6":"DIFI Plate DMC",
+    "art7":"DMC, as the main token of the DIFI sector of the BICLOUD ecosystem, is online. Its acquisition method is produced by the smart contract running on BinanceSmartChain. It needs to be produced in the form of joint pledge of BCG and BYB. It has a great appreciation room and will be used as BICLOUD in The main token of the DIFI ecological sector will be built, and then BICLOUDSmatChain will be cross-linked into BICLOUDSmatChain as the system token of the smart chain, and it will be used as the basic GAS fee for the chain and transfer of the smart contract of the coin cloud chain. It will also be used as the basis of the SWAP sector to exchange tokens.",
+    "art8":"BYB Platform TOKEN",
+    "art9":"BYBTOKEN is also produced by the blockchain game supported by BCG. The output is based on smart contracts, fair and transparent. Compared with BCG, BYB is more rare. Therefore, in the initial stage, BICLOUD will also use BYB as a platform token for circulation.",
+    "art10":"BYB BCLOUD SWAP is a decentralized trading system based on BINANCE SMARTCHAIN. It adds the highlight mechanism of decentralized contracts and is under development...",
+    "art11":"BYBTOKEN is also produced by the blockchain game supported by BCG. The output is based on smart contracts, fair and transparent. Compared with BCG, BYB is more rare. Therefore, in the initial stage, BICLOUD will also use BYB as a platform token for circulation."
+  }
+}
